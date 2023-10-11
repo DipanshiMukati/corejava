@@ -1,8 +1,10 @@
 package in.com.polymorphism;
 
-public class Circle extends shape{
+import Inheritance.Rectangle;
+
+public class Circle extends {
 		private int radius;
-		private  static double PI=3.14;
+		private  static double PI=3.14;   
 		
 		public int getRadius() {
 			return radius;

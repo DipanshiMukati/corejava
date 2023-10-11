@@ -7,16 +7,19 @@ public class employ{
 }
  class Emp1 {
    public void edetial() {
-	   System.out.println("my name is dipanshi");
+
+	 System.out.println("my name is dipanshi");
    }
  }
+ 
    class Emp2 extends Emp1{
 	   public void edetail() {
-	  System.out.println ("my name is prachi");
-	   
-   }
 
-   }
+	 System.out.println ("my name is prachi");
+	   
+}
+  }
+ 
    
 	   
 	   
