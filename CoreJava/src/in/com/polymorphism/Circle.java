@@ -2,7 +2,7 @@ package in.com.polymorphism;
 
 import Inheritance.Rectangle;
 
-public class Circle extends {
+public class Circle extends shape {
 		private int radius;
 		private  static double PI=3.14;   
 		

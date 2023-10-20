@@ -18,7 +18,7 @@ public class Shape {
 		 
 		}
 		public void area() {
-			System.out.println("default");
+//			System.out.println("default");
 		}
 		
 		
