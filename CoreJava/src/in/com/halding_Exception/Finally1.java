@@ -10,7 +10,7 @@ public class Finally1 {
 			System.out.println(name.charAt(5));	
 			} catch (Exception e) {
 		System.out.println(e);
-			}try {
+			}try {	
 				int c = a/b;
 				System.out.println(c);
 			} catch (Exception e) {

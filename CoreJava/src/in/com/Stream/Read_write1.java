@@ -11,15 +11,14 @@ public class Read_write1 {
 		f.createNewFile();
 		}catch(IOException e) {
 			System.out.println("FILE NOT FOUND");
-			e.printStackTrace();
 		}
-	try {
-		FileWriter fw =new FileWriter(f);
-		fw.write("i can do it ");
-		fw.close();
-	}catch(IOException e) {
-		System.out.println("anything");
-		e.printStackTrace();
-	}
+//	try {
+//		FileWriter fw =new FileWriter(f);
+//		fw.write("i can do it ");
+//		fw.close();
+//	}catch(IOException e) {
+//		System.out.println("anything");
+//		e.printStackTrace();
+//	}
 }
 }

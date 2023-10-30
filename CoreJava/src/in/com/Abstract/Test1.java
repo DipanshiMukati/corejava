@@ -1,4 +1,4 @@
-package in.com.Abstract;
+ package in.com.Abstract;
 
 public class Test1{
 	public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Test1{
 			
 			@Override
 			public void area() {
-		System.out.println("this");
+		System.out.println("this is area of ract");
 				
 			}
 		};

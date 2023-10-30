@@ -9,7 +9,6 @@ public class Fibonacci {
 		
 		System.out.println(x+ "\n" +y);
 		
-		
 		for (int i = 0; i <=10; i++) {
 			
 			int z=x+y;

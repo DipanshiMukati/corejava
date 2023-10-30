@@ -10,7 +10,7 @@ public class employ{
 
 	 System.out.println("my name is dipanshi");
    }
- }
+
  
    class Emp2 extends Emp1{
 	   public void edetail() {

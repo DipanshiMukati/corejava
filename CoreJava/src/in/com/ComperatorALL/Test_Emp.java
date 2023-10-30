@@ -6,19 +6,17 @@ import java.util.Collections;
 public class Test_Emp {
 
 	public static void main(String[] args) {
-		ArrayList<Employee>empn = new ArrayList<Employee>();
-		empn.add(new Employee());
-		empn.add(new Employee());
-		empn.add(new Employee(3,"","45678"));
-        
-		System.out.println(empn);
+		ArrayList<Employee>list = new ArrayList<Employee>();
+		list.add(new Employee(4, "dipu","indore"));
+		list.add(new Employee(2, "shruti","khargoan"));
+		list.add(new Employee(5, "prachi", "bhikangoan"));
+	System.out.println(list);
+		Collections.sort( list ,new Comperator_byname());
+		Collections.sort(list,new By_address());
+		System.out.println(list);
 		
-		Collections.sort(empn,new CompratorByname());
-		 System.out.println(empn);
-		 
-		ArrayList<Employee>empid =new ArrayList<Employee>(empn);
-		    Collections.sort(empid, new CompratorByname());
-		    System.out.println(empid);
+		
 	}
-
 }
+		
+		

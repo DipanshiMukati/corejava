@@ -4,7 +4,7 @@ public class Customer implements Cloneable{
 	
 		String name=null;
 		//int balance;
-		Account a=new Account(); 
+		Account a=new Account(0); 
  public Customer(String name,int balance)
  {
 	 this.a.balance=balance;

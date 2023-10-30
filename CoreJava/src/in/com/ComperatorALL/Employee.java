@@ -1,28 +1,29 @@
 package in.com.ComperatorALL;
 
-public class Employee {
+import java.util.Comparator;
+
+public class Employee implements Comparator<Employee> {
       public int id;
       public String name;
-      public String phone;
+      public String address;
       
-      public void  Employee(int id, String name, String phone) {
+      public Employee(int id, String name, String address) {
        
     	  this.id=id;
     	  this.name=name;
-    	  this.phone=phone;
+    	  this.address=address;
     	 
       }
-       private void Compratorto() {
+      @Override
+    public String toString() {
+    	// TODO Auto-generated method stub
+    	return id+" "+name+" "+address;
+    	
+    }
+
+	@Override
+	public int compare(Employee o1, Employee o2) {
 		// TODO Auto-generated method stub
-
+		return 0;
 	}
-      
-      
-     
-    	  @Override
-    	public String toString() {
-       	return id + " " + name + " " + phone;
-
-    	}
-		      }     
-
+}
